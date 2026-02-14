@@ -100,9 +100,12 @@ body {
     }
 }
 @media screen and (max-width: 768px) {
-    .navheader {
+    /* body {
+        padding: 70px;
+    } */
+    /* .navheader {
         height: 60px;
-    }
+    } */
     .navlogo {
         height: 60px;
         font-size: 25px;

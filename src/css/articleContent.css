@@ -1,13 +1,8 @@
-main {
-    justify-content: center;
-    display: flex;
-    min-height: 70vh;
-}
 .containerbox {
     width: 100%;
-    min-height: 70vh;
+    height: 500px;
     position: relative;
-    margin-top: 60px;
+    margin-top: 80px;
     background-image: url(../img/Image34.jpg);
     background-position: center;
     background-size: cover;
