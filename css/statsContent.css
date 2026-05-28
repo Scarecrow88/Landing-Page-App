@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.statscontainer {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    text-align: center;
+    background-image: url(../img/Image39.jpg);
+}
+.statscontainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--container-shadow);
+    pointer-events: none;
+    z-index: 0;
+}
+.statbox {
+    position: relative;
+    z-index: 0;
+    color: var(--text-color);
+    padding: 30px;
+}
+.statnumber {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px var(--color-shadow);
+}
+.statlabel {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+@media (max-width: 768px) {
+    .statnumber {
+        font-size: 2.5rem;
+    }
+}

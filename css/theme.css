@@ -1,0 +1,13 @@
+:root {
+    --first-color: #006466;
+    --second-color: #065A60;
+    --third-color: #0B525B;
+    --fourth-color: #144552;
+    --fifth-color: #1B3A4B;
+    --text-color: #FFFFFF;
+    --container-shadow: rgba(36, 40, 83, 0.692);
+    --color-shadow: #000000;
+    --scrollbar-track: #0B525B;
+    --scrollbar-thumb: #1B3A4B;
+
+}
